@@ -4,6 +4,7 @@ import { getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, Faceb
 import LoginPage from './LoginPage';
 import HomePage from './HomePage';
 import { app } from './FirebaseProvider';
+import SignupPage from './RegisterPage';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -56,6 +57,7 @@ function App() {
       <Routes>
         <Route path="/home" element={user ? <HomePage user={user} signOut={signOut} /> : <Navigate to="/" />} />
         <Route path="/" element={<LoginPage auth={getAuth(app)} signInWithGoogle={signInWithGoogle} signInWithFacebook={signInWithFacebook} />} />
+        <Route path="signup" element={<SignupPage auth={getAuth(app)} signInWithGoogle={signInWithGoogle} signInWithFacebook={signInWithFacebook} />} />
       </Routes>
     </Router>
   );

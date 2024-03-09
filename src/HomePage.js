@@ -63,6 +63,7 @@ function HomePage({ user, signOut }) {
           </button>
         </div>
       </div>
+      <section className="about">
       <div class="container1">
         <div class="layout">
           <img
@@ -131,6 +132,7 @@ function HomePage({ user, signOut }) {
           <img src="About.png" alt="About Us Image" />
         </div>
       </div>
+      </section>
       <section class="our-tracks-section">
         <h2 className="track">Our Tracks</h2>
         <div class="tracks-container">
@@ -402,6 +404,37 @@ function HomePage({ user, signOut }) {
         </div>
       </div>
       </div>
+      <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+          <img src="logo.png"/>
+            <h2>Book Store</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lacus eget enim consequat cursus.</p>
+            <div class="contact">
+                <span><i class="fas fa-phone"></i> 123-456-7890</span>
+                <span><i class="fas fa-envelope"></i> info@example.com</span>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-section linkss">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Your Website | Designed by You
+    </div>
+</footer>
     </div>
   );
 }

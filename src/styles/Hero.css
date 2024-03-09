@@ -390,3 +390,79 @@ button{
     font-family: "Poppins-Light";
     color: #ffffff;
 }
+/* Footer styles */
+footer {
+    background-color: #FDF8EE;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+.contact span {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.socials a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: black;
+}
+
+.linkss ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+.linkss li {
+    margin-bottom: 10px;
+}
+
+.linkss a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    color: black;
+}

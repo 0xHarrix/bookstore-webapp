@@ -13,7 +13,7 @@ function Navbar({ isLoggedIn, onLogout }) {
           <div>
               <div className='links'>
                 <a href="/" className='link'>Home</a>
-                <a href="/" className='link'>About Us</a>                
+                <a href="#about" className='link'>About Us</a>                
                 <a href="/" className='link'>Courses</a>
                 <a href="/" className='link'>Faculty</a>
                 <a href="/" className='link'>Contact Us</a>

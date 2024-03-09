@@ -1,5 +1,5 @@
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import './styles/Login.css'
 
 function LoginPage({ auth, signInWithGoogle, signInWithFacebook }) {
@@ -58,6 +58,10 @@ function LoginPage({ auth, signInWithGoogle, signInWithFacebook }) {
 <div className="buttonContainer">
         <button onClick={handleGoogleSignIn} className='googlebutton'><img src="Google.png" alt="Google Logo" style={{ marginRight: '10px' }}/>Google</button>
         <button onClick={handleFacebookSignIn} className='googlebutton'><img src="Facebook.png" alt="Google Logo" style={{ marginRight: '10px' }}/>Facebook</button>
+        </div>
+        <div className="signup-link">
+          <span color='#0062FF'>Don't have an account? </span>
+          <Link to="/signup">Sign Up</Link>
         </div>
       </div>
       <div style={{ width: '66%' }}>
