@@ -139,9 +139,9 @@ function HomePage({ user, signOut }) {
             <p>UI/UX Design</p>
             <h4>JEE 2024</h4>
             <h3>$98</h3>
-            <hr/>
+            <hr />
             <div class="course-details">
-            <div class="detail">
+              <div class="detail">
                 <img src="time.png" alt="Time Icon" />
                 <h5>10 hours</h5>
               </div>
@@ -156,8 +156,8 @@ function HomePage({ user, signOut }) {
             </div>
             <div className="joinbutton">
               <h1></h1>
-            <button class="join-course-btn">Join course</button>
-            <h2></h2>
+              <button class="join-course-btn">Join course</button>
+              <h2></h2>
             </div>
           </div>
           <div class="track-card">
@@ -165,9 +165,9 @@ function HomePage({ user, signOut }) {
             <p>Description of Track 1 goes here.</p>
             <h4>NEET 2024 </h4>
             <h3>$98</h3>
-            <hr/>
+            <hr />
             <div class="course-details">
-            <div class="detail">
+              <div class="detail">
                 <img src="time.png" alt="Time Icon" />
                 <h5>10 hours</h5>
               </div>
@@ -182,8 +182,8 @@ function HomePage({ user, signOut }) {
             </div>
             <div className="joinbutton">
               <h1></h1>
-            <button class="join-course-btn">Join course</button>
-            <h2></h2>
+              <button class="join-course-btn">Join course</button>
+              <h2></h2>
             </div>
           </div>
           <div class="track-card">
@@ -191,7 +191,7 @@ function HomePage({ user, signOut }) {
             <p>Description of Track 1 goes here.</p>
             <h4>GATE 2024</h4>
             <h3>$98</h3>
-            <hr/>
+            <hr />
             <div class="course-details">
               <div class="detail">
                 <img src="time.png" alt="Time Icon" />
@@ -208,31 +208,200 @@ function HomePage({ user, signOut }) {
             </div>
             <div className="joinbutton">
               <h1></h1>
-            <button class="join-course-btn">Join course</button>
-            <h2></h2>
+              <button class="join-course-btn">Join course</button>
+              <h2></h2>
             </div>
           </div>
         </div>
       </section>
       <section>
         <div className="learning">
-          <h1 className="learningtext">Premium <span>Learning</span><br/> Experience</h1>
+          <h1 className="learningtext">
+            Premium <span>Learning</span>
+            <br /> Experience
+          </h1>
           <div className="flex-text">
-          <img src="11.png" className="learningtext1"></img>
-          <div>
-          <h2 className="text1">Easily Accessible</h2>
-          <h3 style={{paddingLeft: '25px',marginTop: '-10px'}} className="text3">Learning Will fell Very Comfortable With Courslab.</h3>
-          </div>
+            <img src="11.png" className="learningtext1"></img>
+            <div>
+              <h2 className="text1">Easily Accessible</h2>
+              <h3
+                style={{ paddingLeft: "25px", marginTop: "-10px" }}
+                className="text3"
+              >
+                Learning Will fell Very Comfortable With Courslab.
+              </h3>
+            </div>
           </div>
           <div className="flex-text">
-          <img src="12.png" className="learningtext2"></img>
-          <div>
-          <h2 className="text2">Fun learning expe</h2>
-          <h3 style={{paddingLeft: '25px',marginTop: '-10px'}} className="text3">Learning Will fell Very Comfortable With Courslab.</h3>
-          </div>
+            <img src="12.png" className="learningtext2"></img>
+            <div>
+              <h2 className="text2">Fun learning expe</h2>
+              <h3
+                style={{ paddingLeft: "25px", marginTop: "-10px" }}
+                className="text3"
+              >
+                Learning Will fell Very Comfortable With Courslab.
+              </h3>
+            </div>
           </div>
         </div>
       </section>
+      <section class="our-student-section">
+        <div class="student-text">
+          <h2>What student’s say</h2>
+          <h3>Lorem Ipsum is simply dummy text of the printing.</h3>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            {" "}
+            <div class="content">
+              “Teachings of the great explore of truth, the master-builder of
+              human happiness. no one rejects,dislikes, or avoids pleasure
+              itself, pleasure itself”{" "}
+            </div>
+            <div class="image-container">
+              <img src="Profile1.png" alt="Profile Image" height="47px" />
+              <h2>
+                <span>Clara R. Altman</span>
+                <br />
+                UI&UX Design
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              “Complete account of the system and expound the actual Contrary to
+              popular belief, Lorem Ipsum is not simply random text. It has
+              roots”
+            </div>
+            <div class="image-container">
+              <img src="Profile2.png" alt="Profile Image" height="47px" />
+              <h2>
+                <span>Dannette P. Cervantes</span>
+                <br />
+                Web Design
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              “There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour”
+            </div>
+            <div class="image-container">
+              <img src="Profile3.png" alt="Profile Image" height="47px" />
+              <h2>
+                <span>Finlay Kirk </span>
+                <br />
+                Web Developer
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="faculty">
+        <h2 className="track">Our Faculty</h2>
+        <h3 className="track1">
+          Lorem Ipsum is simply dummy text of the printing.
+        </h3>
+        <div class="tracks-container">
+          <div class="track-card">
+            <img src="21.png" alt="Track 1" />
+            <p>Matthew E. McNatt</p>
+            <h4>Professor @George Brown College</h4>
+            <p>
+              Ut enim ad minim veniam, quis nost exercitation ullamco laboris
+              nisi ut allquip ex commodo.
+            </p>
+            <h3>Engineering physics</h3>
+            <div class="course-details">
+              <div class="detail1">
+                <img src="insta.png" alt="Time Icon" />
+              </div>
+              <div class="detail2">
+                <img src="linkedin.png" alt="Video Icon" />
+              </div>
+            </div>
+          </div>
+          <div class="track-card">
+            <img src="22.png" alt="Track 1" />
+            <p>Tracy D. Wright</p>
+            <h4>Professor @George Brown College</h4>
+            <p>
+              Ut enim ad minim veniam, quis nost exercitation ullamco laboris
+              nisi ut allquip ex commodo.
+            </p>
+            <h3>Engineering physics</h3>
+            <div class="course-details">
+              <div class="detail1">
+                <img src="insta.png" alt="Time Icon" />
+              </div>
+              <div class="detail2">
+                <img src="linkedin.png" alt="Video Icon" />
+              </div>
+            </div>
+          </div>
+          <div class="track-card">
+            <img src="23.png" alt="Track 1" />
+            <p>Cynthia A. Nelson</p>
+            <h4>Professor @George Brown College</h4>
+            <p>
+              Ut enim ad minim veniam, quis nost exercitation ullamco laboris
+              nisi ut allquip ex commodo.
+            </p>
+            <h3>Engineering physics</h3>
+            <div class="course-details">
+              <div class="detail1">
+                <img src="insta.png" alt="Time Icon" />
+              </div>
+              <div class="detail2">
+                <img src="linkedin.png" alt="Video Icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="subscribe">
+        <h2>Subscribe to our newsletter<br/><span>Lorem Ipsum is simply dummy text of the printing.</span></h2>
+        <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          paddingLeft:'550px'
+        }}
+      >
+        <div style={{ position: "relative", width: "300px" }}>
+          <input
+            type="text"
+            placeholder="Email Address"
+            style={{
+              padding: "14px 32px 14px 32px", // Adjust padding to accommodate image and text
+              borderRadius: "24px",
+              border: "1px solid #ccc",
+              width: "100%", // Adjust width as needed
+            }}
+          />
+          <button
+            style={{
+              padding: "12px 20px",
+              borderRadius: "24px",
+              backgroundColor: "orange",
+              color: "white",
+              border: "none",
+              cursor: "pointer",
+              position: "absolute",
+              top: "50%", // Align button to the vertical center
+              transform: "translateY(-50%)", // Move button up by half of its height
+              left: "99%",
+              height: "100%",
+            }}
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      </div>
     </div>
   );
 }

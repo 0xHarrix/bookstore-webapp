@@ -294,3 +294,99 @@ button{
     font-size: 15px;
     font-weight: 80;
 }
+.student-text {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .student-text h2{
+    font-family: "Poppins";
+    color: #050C26;
+  }
+
+  .student-text h3{
+    font-family: "Poppins-Light";
+    font-weight: 100;
+    color: #8A8A8A;
+    margin-top: -15px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply shadow effect */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    color: #ACACAC;
+}
+.card .content {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+}
+.image-container h2 {
+    font-size: 12px;
+    font-family: "Roboto-Light";
+    font-size: xx-small;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.image-container h2 span{
+    color: black;
+    font-family: "Roboto-Light";
+    font-size: small;
+}
+
+.faculty {
+    padding: 40px;
+}
+
+/* Heading style */
+.faculty h2 {
+    text-align: center;
+    color: #333333;
+}
+.faculty .track1 {
+    text-align: center;
+    color: #8A8A8A;
+    font-size: 15px;
+    font-family: "Poppins";
+}
+.detail1 {
+    position: absolute;
+    margin-left: 18%
+}
+.detail2 {
+    position: absolute;
+    margin-left: 20%
+}
+.subscribe{
+    background-image: url("../../public/subscribe.png");
+    height: 533px;
+    width: 1500px;
+}
+.subscribe h2{
+    font-family: "Poppins";
+    padding-top: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+.subscribe h2 span{
+    font-size: 14px;
+    font-family: "Poppins-Light";
+    color: #ffffff;
+}
