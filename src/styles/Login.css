@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/fonts/Poppins-Bold.ttf') format('truetype');
+  }
+
+  .googlebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; /* Set border color to gray */
+    border-radius: 8px;
+    padding: 5px 30px;
+    font-family: 'Poppins';
+    background-color: white;
+  }
+  
+  .googlebutton:hover {
+    border-color: #666; /* Darken border color on hover if desired */
+  }
+
+  .lineWithText {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.1em; /* Ensures the text is aligned in the middle of the line */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  
+  .lineWithText span {
+    background-color: white; /* This ensures the text remains on top of the line */
+    padding: 0 10px; /* Adds padding around the text */
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    color: #969AB8;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #66afe9;
+  }
