@@ -3,6 +3,11 @@
     src: url('../../public/fonts/Poppins-Bold.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url('../../public/fonts/Poppins-Light.ttf') format('truetype');
+  }
+
   .googlebutton {
     display: flex;
     align-items: center;
@@ -12,6 +17,8 @@
     padding: 5px 30px;
     font-family: 'Poppins';
     background-color: white;
+    width: 190px;
+    margin-right: 15px;
   }
   
   .googlebutton:hover {
@@ -22,7 +29,11 @@
     text-align: center;
     border-bottom: 1px solid #ccc;
     line-height: 0.1em; /* Ensures the text is aligned in the middle of the line */
-    margin: 20px 0; /* Adjust margin as needed */
+    margin: 20px 0; 
+    color: #969AB8;
+    font-family: "Poppins";
+    font-size: 12px;
+    width: 400px;
   }
   
   .lineWithText span {
@@ -35,10 +46,28 @@
     padding: 8px;
     border-radius: 5px;
     color: #969AB8;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-Light';
+    width: 384px;
   }
   
   input:focus {
     outline: none;
     border-color: #66afe9;
+  }
+
+  .loginbutton {
+    background-color: #0062FF;
+    border-radius: 8px;
+    width: 400px;
+    height: 45px;
+    color: white;
+    font-family: "Poppins";
+    border: 1px solid transparent;
+  }
+  .login {
+    font-family: "Poppins";
+  }
+  .buttonContainer {
+    display: flex;
+    margin-top: 20px; /* Add margin between the buttons */
   }

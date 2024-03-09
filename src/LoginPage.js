@@ -38,7 +38,7 @@ function LoginPage({ auth, signInWithGoogle, signInWithFacebook }) {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ width: '33%', padding: '0 20px' }}>
-        <h2>Login</h2>
+        <h2 className='login'>Login</h2>
         <form onSubmit={(e) => {
           e.preventDefault();
           const { email, password } = e.target.elements;
@@ -50,13 +50,15 @@ function LoginPage({ auth, signInWithGoogle, signInWithFacebook }) {
           <div style={{ marginBottom: '10px' }}>
             <input type="password" id="password" name="password" placeholder="Password" />
           </div>
-          <button type="submit">Sign in</button>
+          <button type="submit" className='loginbutton'>Sign in</button>
         </form>
         <div className="lineWithText">
-  <span>Or Login using</span>
+  <span>Or</span>
 </div>
+<div className="buttonContainer">
         <button onClick={handleGoogleSignIn} className='googlebutton'><img src="Google.png" alt="Google Logo" style={{ marginRight: '10px' }}/>Google</button>
         <button onClick={handleFacebookSignIn} className='googlebutton'><img src="Facebook.png" alt="Google Logo" style={{ marginRight: '10px' }}/>Facebook</button>
+        </div>
       </div>
       <div style={{ width: '66%' }}>
         <img src='loginillustration.png' alt="Login Illustration" style={{ width: '100%', height: '99.5vh', objectFit: 'cover' }} />
