@@ -11,7 +11,13 @@ function HomePage({ user, signOut }) {
 
   return (
     <div className='container'>
-      <Navbar></Navbar>
+      <Navbar/>
+      <h1 className='herotext1'>
+  The <span className='orange'>Smart</span> <br /> Choice For
+  <span className='orange'> Future</span>
+</h1>
+<h2 className='herotext2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h2>
+
     </div>
   );
 }

@@ -1,6 +1,33 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto-Light';
+    src: url('../../public/fonts/Roboto-Light.ttf') format('truetype');
+  }
 .container {
     background-image: url("../../public/herobackground.png");
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
     height: 100vh;
+}
+.herotext1{
+    position: absolute;
+    top: 220px;
+    left: 194px;
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+.herotext2{
+    position: absolute;
+    top: 370px;
+    left: 194px;
+    width: 450px;
+    font-family: "Roboto-Light";
+    font-weight: 100;
+    font-size: 20px;
 }
