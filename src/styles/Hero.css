@@ -6,11 +6,20 @@
     font-family: 'Roboto-Light';
     src: url('../../public/fonts/Roboto-Light.ttf') format('truetype');
   }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../public/fonts/Poppins-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url('../../public/fonts/Poppins-Light.ttf') format('truetype');
+  }
 .container {
     background-image: url("../../public/herobackground.png");
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the background image */
-    height: 100vh;
+    height: 108vh;
 }
 .herotext1{
     position: absolute;
@@ -36,4 +45,252 @@ input{
 }
 button{
     font-family: "Roboto";    
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4D2C5E;
+    padding: 20px;
+    width: 90%;
+    height: 20%;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 600px;
+  }
+  
+  .layout {
+    padding: 10px;
+    width: 30%;
+    display: flex;
+  }
+  
+  .layout .content {
+    flex-grow: 1; /* Content takes up remaining space */
+    padding-right: 10px; /* Add spacing between image and content */
+  }
+  
+  .layout img {
+    max-width: 100%;
+  }
+  
+  .layout h2 {
+    margin-top: 0;
+    color: white;
+    font-family: "Roboto"; 
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .layout p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto-Light"; 
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Horizontally center the container */
+    padding: 20px;
+}
+
+.about-us-content {
+    width: 60%; /* Adjust width as needed */
+}
+
+.about-us-image {
+    width: 40%;
+    margin-left: 10%; /* Adjust width as needed */
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-us-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us-content,
+    .about-us-image {
+        width: 100%;
+        margin-bottom: 20px; /* Add space between content and image */
+    }
+}
+
+.about-us-content h2 {
+    font-family: "Poppins";
+}
+
+.about-us-content p {
+    font-family: "Roboto-Light";
+}
+
+/* Our Tracks section */
+.our-tracks-section {
+    padding: 40px;
+}
+
+/* Heading style */
+.our-tracks-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Tracks container style */
+.tracks-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+}
+
+/* Track card style */
+.track-card {
+    width: calc(23.333% - 20px); /* Adjust width to fit three cards in a row with space in between */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* Track card image style */
+.track-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+/* Track card title style */
+.track-card h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #FF7426;
+    font-family: "Poppins";
+}
+
+.track-card h2 {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Poppins";
+}
+
+/* Track card description style */
+.track-card p {
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    font-family: "Poppins-Light";
+}
+
+/* Course details style */
+.course-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items from the start */
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust spacing between elements */
+}
+
+.detail img {
+    width: 19px;
+    height: 19px;
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+.detail h5 {
+    margin: 0;
+    color: #333; /* Set color for text */
+}
+
+/* Clock icon style */
+.course-details i {
+    color: #333333;
+    margin-right: 5px;
+}
+
+/* Join course button style */
+.join-course-btn {
+    background-color: #ff7f00;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 96px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the join course button */
+.join-course-btn:hover {
+    background-color: rgba(255, 123, 0, 0.649);
+}
+.joinbutton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.track-card h4{
+    font-family: "Poppins";
+}
+.track{
+    font-family: "Poppins";
+}
+.learning{
+    background-image: url("../../public/Section.png");
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 80vh;
+}
+.learningtext{
+    padding-top: 90px;
+    padding-left: 800px;
+    font-family: "Poppins";
+    font-size: 35px;
+}
+.learningtext span{
+    color: #ff7f00;
+}
+.learningtext1{
+    padding-top: 20px;
+    padding-left: 800px;
+    height: 90px;
+    width: 90px;
+}
+.learningtext2{
+    padding-left: 800px;
+    height: 90px;
+    width: 90px;
+}
+.flex-text{
+    display: flex;
+    margin-bottom: 20px;
+}
+.text1{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+.text2  {
+    padding-left: 25px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+.text3{
+    font-family: 'Poppins-Light';
+    font-size: 15px;
+    font-weight: 80;
 }

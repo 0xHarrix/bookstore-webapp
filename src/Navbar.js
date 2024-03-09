@@ -3,7 +3,7 @@ import './styles/Navbar.css';
 
 function Navbar({ isLoggedIn, onLogout }) {
   return (
-<div style={{ marginLeft: '40px', marginRight: '40px', marginTop: '10px'}}>
+<div style={{ marginLeft: '40px', marginRight: '40px'}}>
       <nav style={{ backgroundColor: 'transparent', color: '#ED6E12', padding: '10px', borderRadius: '16px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center' }}>

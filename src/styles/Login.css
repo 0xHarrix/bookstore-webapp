@@ -22,7 +22,8 @@
   }
   
   .googlebutton:hover {
-    border-color: #666; /* Darken border color on hover if desired */
+    border-color: #666;
+    cursor:pointer;
   }
 
   .lineWithText {
