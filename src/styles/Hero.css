@@ -1,0 +1,6 @@
+.container {
+    background-image: url("../../public/herobackground.png");
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh;
+}

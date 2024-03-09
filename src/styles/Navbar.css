@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/fonts/Poppins-SemiBold.ttf') format('truetype');
+  }
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Add a shadow to the navbar */
+  }
+  
+  .Signup {
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 26px;
+    background-color: #4D2C5E;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+  }
+  
+  .Signup:hover {
+    background-color: #4d2c5ecc;
+  }
+  
+  .links a {
+    margin-right: 40px;
+    text-decoration: none;
+  }
+  
+  .links a:last-child {
+    margin-right: 0;
+  }
+  
+  .Foodie {
+    font-family: 'Poppins';
+    color: #1D1D1D;
+  }
+  
+  .link {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    /* Ensure that the pseudo-element is positioned relative to the link */
+    text-decoration: none;
+  }
+  
+  .link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    /* Adjust the distance of the underline from the text */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    /* Adjust the thickness of the underline */
+    background-color: #4D2C5E;
+    /* Color of the underline */
+    transition: width 0.3s ease;
+    /* Smooth transition effect */
+  }
+  
+  .link:hover::after {
+    width: 100%;
+    /* Expand the underline to cover the width of the link */
+  }
+  

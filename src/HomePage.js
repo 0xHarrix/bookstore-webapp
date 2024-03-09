@@ -1,6 +1,8 @@
 // HomePage.js
 
 import React from 'react';
+import Navbar from './Navbar';
+import './styles/Hero.css'
 
 function HomePage({ user, signOut }) {
   if (!user) {
@@ -8,9 +10,8 @@ function HomePage({ user, signOut }) {
   }
 
   return (
-    <div>
-      <h2>Welcome, {user.displayName}</h2>
-      <button onClick={signOut}>Sign out</button>
+    <div className='container'>
+      <Navbar></Navbar>
     </div>
   );
 }
